@@ -35,29 +35,29 @@ npx playwright test
 > 🚩 **Note**
 > This project is for sheer purpose of presenting Playwright possibilities.
 
-## License
 
-[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/cypress-io/cypress/blob/master/LICENSE)
-
-This project is licensed under the terms of the [MIT license](/LICENSE).
+<p align="center">
+  <a href="https://playwright.dev/">
+    <img width="140" alt="Playwright Logo" src="https://static-00.iconduck.com/assets.00/cypress-icon-256x255-r6l3lr29.png" />
+    </a>
+</p>
 
 ## 🛠 Installation and Setup Instructions for Cypress
 
 1. Installation: `npm install`
 
-2. In the project directory, you can run: `npx cypress open`
+2. In the cypress project directory, you can run: `npx cypress open`
 
 Runs the test in the cypress browser.\
 Open E2E test and start the process.
-There are 3 test cases with multiple assertions.
+There are 4 test cases with multiple assertions.
 Test cases were designed using fixtures and cypress Command.add.
 
-## Usage Instructions
+## License
 
-Open the project folder and Navigate to `/cypress/e2e/etraveli`. <br/>
-You will find the component called searchFlight.cy.js you can freely work on it and/or add another one.
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/cypress-io/cypress/blob/master/LICENSE)
 
-##Side Note please be aware that the fixtures component only works with the full path and may be becouse of the Cypress issue cannot be imported with es6. Before the run the path has to be defined.
+This project is licensed under the terms of the [MIT license](/LICENSE).
 
 
 
