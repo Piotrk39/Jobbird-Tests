@@ -91,7 +91,7 @@ npx playwright test
 
 2. Installation: `npm install`
 
-2. In the cypress project directory, you can run: `npx cypress open`
+2. In the cypress project directory, you can run: `npx cypress open` or `npx cypress run` to run the tests
 
 Runs the test in the cypress browser.\
 Open E2E test and start the process.
