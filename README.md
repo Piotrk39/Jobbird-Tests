@@ -87,7 +87,9 @@ npx playwright test
 
 ## 🛠 Installation and Setup Instructions for Cypress
 
-1. Installation: `npm install`
+1. navigate to directory: `/cypress-tests`
+
+2. Installation: `npm install`
 
 2. In the cypress project directory, you can run: `npx cypress open`
 
