@@ -13,6 +13,7 @@ describe("Click on New Registartion fill in the form without Surname and Email",
   const phone = generateRandomNumber(9);
 
   it("Navigate to New Registration Page and add New User", () => {
+    cy.viewport('iphone-6');
     cy.navigateNewRegistration();
 
     //---------------- Fill in the form and submit ----------------//
